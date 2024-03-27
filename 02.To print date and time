@@ -1,0 +1,12 @@
+how to print date and time
+
+from datetime import datetime
+now=datetime.now()
+print("Current date and time")
+print(now.strftime("%y-%m-%d and %H:%M:%S"))
+/*
+Current date and time
+24-03-27 and 09:30:08
+
+=== Code Execution Successful ===
+*/
